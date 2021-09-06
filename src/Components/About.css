@@ -1,0 +1,131 @@
+.abt-banner{
+    background-image: url("C:/Users/Abhishek/Desktop/MIne/ops/src/Assets/bgabout.jpg");
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.abt-layer-1{
+    height: 100vh;
+    text-align: right;
+    
+}
+.abt-section-1{
+   position: relative;
+   top:45vh;
+ padding: 0% 3% 0% 0%;
+ border-right: 5px solid #fff;
+}
+.abt-section-1 h1{
+    color:#fff;
+    font-size: 5vw;
+}
+.abt-section-1 p{
+    color:#fff;
+    font-size: 2vw;
+}
+.abt-section-2{
+    position: relative;
+    top:50vh;
+}
+.abt-section-2 h1{
+    color:#fff;
+    font-size: 5vw;
+}
+/* #################################BANNER########################################### */
+.abt-Who{
+     background-color:#fff;
+     padding: 3% 0%;
+    
+}
+
+.abt-Who h2{
+ font-size: 5vw;
+ text-align: center;
+}
+.abt-Who-row{
+    margin: 10% 0% ;
+   
+}
+.abt-Who-section{
+    position: relative;
+    justify-content: center;
+    top:8%;
+    
+
+}
+.abt-Who-section{
+    text-align: center;
+}
+.abt-Who-section p{
+    font-size: 1vw;
+}
+/* ###############################WHO WE ARE################################################ */
+.abt-What{
+    background-color:rgb(98, 179, 233);
+    padding: 3% 0% 1% 0% ;
+   
+}
+
+.abt-What h2{
+font-size: 5vw;
+text-align: center;
+}
+.abt-What-row{
+   margin: 10% 0% ;
+  
+}
+.abt-What-section{
+   position: relative;
+   justify-content: center;
+   top:8%;
+   
+
+}
+.abt-What-section{
+   text-align: center;
+}
+.abt-What-section p{
+   font-size: 1vw;
+}
+/* #################WHAT WE BELIEVE IN######################################################### */
+
+.abt-Client{
+    background-image:linear-gradient(rgba(156, 78, 32, 0.5),rgba(173, 93, 40, 0.589)), url("C:/Users/Abhishek/Desktop/lejhro/Lejhro-2.0/src/Assets/");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin: 5% 0%;
+}
+.abt-Client-row{
+    position: relative;
+    top:20%;
+}
+.abt-Client h2{
+ color: #fff;
+ font-size: 5vw;
+
+}
+.abt-Client p{
+    color: #fff;
+ font-size: 1vw;
+}
+/* ########################################client################################## */
+.Leadership{
+    background:linear-gradient(rgb(24, 115, 151),rgb(39, 88, 221));
+    padding: 2% 0%;
+
+}
+.Leadership h1{
+    font-size: 5vw;
+}
+.Leadership-row{
+    padding: 2% 15vw;
+   
+}
+.Leadership-row-text{
+    border-left: 5px solid #fff;
+    color: #fff;
+}

@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Six+Caps&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+p{
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+    
+}
+.ep-Banner{
+    background:linear-gradient(to left,rgb(11, 76, 255),rgb(147, 52, 255));
+    width: 100vw;
+    height: 60vh;
+
+}
+.ep-Banner-text{
+    position: absolute;
+    top:10%;    
+    left: 10%;
+    width: 80%;
+}
+.ep-Banner-text h1{
+   
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'Six Caps',sans-serif;
+   
+}
+.ep-Banner-text p{
+    
+    font-size: 2.5rem;
+    width: 50vw;
+    font-family: 'Tangerine',sans-serif;
+    color: #fff;
+}
+/* ################################### Banner$################################################# */
+.ep-Intro-text p{
+    text-align: center;
+    padding: 1% 5%;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 5% 0%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ep-section{
+    text-align: center;
+    padding: 3% 6%;
+    background-color: rgb(48, 155, 255);
+   
+    
+}
+.ep-section p{
+    font-size: 1.7rem;
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+    font-weight: 600;
+}
+.ep-section-img{
+   width: 100vw;
+   height: 100vh;
+    border-radius: 50px;
+}
+.ep-Use{
+    text-align:center;
+    padding: 1% 5%;
+    
+}
+.ep-Use p{
+    font-size: 1.7rem;
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+    font-weight: 500;
+}
+@media  (max-width:540px){
+    .ep-Banner{
+        width: 100vw;
+        height: 70vh;
+    }
+    
+    .ep-Banner-text h1{
+        font-size: 12vw;
+    }
+    .ep-Banner-text p{
+        width:100vw;
+        font-size:8vw;
+        
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media(min-width:540px) and (max-width:1050px){
+    .ep-Banner{
+        width: 100vw;
+        height: 80vh;
+    }
+    .ep-Banner-text h1{
+        font-size: 12vw;
+        width: 90vw;
+    }
+    .ep-Banner-text p{
+        width: 80vw;
+        font-size: 7vw;
+    }
 }
