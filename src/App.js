@@ -1,11 +1,9 @@
-import { Button,Container,Row,Col,Image } from 'react-bootstrap';
+import { Container,Row,Image } from 'react-bootstrap';
 import './App.css';
 import ELImg from './Assets/ELImg.jpg'
 import {
   BrowserView,
   MobileView,
-  isBrowser,
-  isMobile
 } from "react-device-detect";
 
 
