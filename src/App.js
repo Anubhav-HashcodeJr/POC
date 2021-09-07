@@ -17,11 +17,13 @@ function App() {
       <BrowserView>
       <Container fluid className="ep-Banner">
         <Row className="ep-Banner-text">
+          <div className="fix">
           <h1>Experiential Learning</h1><br/>
           <p>Learning has no boundaries. There is always there to
              learn on different topics and gain knowledge. Now it can
               be of various types of them is experiential learning. Let's hear about it.
           </p>
+          </div>
         </Row>
       </Container>
       <Container className="ep-Intro">

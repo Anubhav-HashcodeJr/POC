@@ -18,6 +18,7 @@ p{
     top:10%;    
     left: 10%;
     width: 80%;
+    resize: none;
 }
 .ep-Banner-text h1{
    
@@ -98,4 +99,9 @@ p{
         width: 80vw;
         font-size: 7vw;
     }
+}
+.fix{
+    overflow:hidden;
+    box-sizing: border-box;
+    border: 1 px solid black;
 }
